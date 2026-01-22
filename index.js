@@ -63,7 +63,7 @@ const showCards = () => {
     orderCard.innerHTML = `<div class="card-image">
                 <img src="${product.image}">
               </div>
-              <h4>${product.nam}</h4>
+              <h4>${product.name}</h4>
               <h4 class="price">${product.price}</h4>
               <a href="#" class="btn cart-btn">Add to Cart</a>`;
 
@@ -95,7 +95,7 @@ const addToCart = (product) => {
                   <img src="${product.image}">
                 </div>
                 <div class ="item-detail">
-                  <h4>${product.nam}</h4>
+                  <h4>${product.name}</h4>
                   <h4 class="item-total">${product.price}</h4>
                 </div>
                 <div class="flex">
